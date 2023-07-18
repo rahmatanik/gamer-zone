@@ -17,11 +17,16 @@
   font-size: 0.8rem;
   font-weight: 600;
   background-color: #ff42a5;
+
   border-radius: 35px;
   padding: 15px 30px;
   border: none;
   margin-top: 20px;
   cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: #4ec5f7;
+  color: white;
 }
 
 .btn-secondary {
@@ -36,6 +41,10 @@
   border: none;
   margin-top: 20px;
   cursor: pointer;
+}
+.btn-secondary:hover {
+  color: white;
+  background-color: #ff42a5;
 }
 
 /* Header part start */
@@ -142,16 +151,18 @@ nav {
 }
 
 /*  we are gammer style */
-main {
+/* main {
+} */
+.gamer-section {
+  background-color: FFF9FC;
+}
+.gamer {
   max-width: 1400px;
   margin: 0 auto;
-}
-
-.gamer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 80px 0;
+  padding: 80px 0;
 }
 
 .gamer-img img {
@@ -182,6 +193,7 @@ main {
 }
 
 h3.our-purpose {
+  margin-top: 20px;
   color: #534c64;
   font-size: 24px;
   font-weight: 500;
