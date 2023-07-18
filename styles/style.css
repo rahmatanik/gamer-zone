@@ -269,7 +269,7 @@ h2.gamer-unleash {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding-bottom: 120px;
+  padding-bottom: 180px;
 }
 .cat {
   display: flex;
@@ -277,12 +277,23 @@ h2.gamer-unleash {
   align-items: center;
   align-content: center;
 }
+.cat:hover {
+  border: 2px solid rgb(193, 0, 211);
+  padding: 10px;
+  background-color: #ecfffb;
+  transition: 0.7s;
+  cursor: pointer;
+  border-radius: 60px;
+}
 
 .games-name {
   color: #0b0223;
   font-size: 1rem;
   font-weight: 600;
   margin: 0px 20px 0px 10px;
+}
+.games-name:hover {
+  color: rgb(164, 5, 185);
 }
 
 /* footer style start */
